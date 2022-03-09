@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    margin: 30px 0px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-image: url('hero-bg.jpg');
+    align-items: center;
+    color: white;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 0px 10px;
+    margin: 5px 100px;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-floating {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 10px;
+    padding: 13px 20px;
+    width: 500px;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 10px;
+    padding: 13px 20px;
+    width: 500px;
+
+}
+
+.checkbox {
+    padding: 10px 0px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: #77b9e8;
+    color: white;
+    border: 1px;
+    cursor: pointer;
+}
